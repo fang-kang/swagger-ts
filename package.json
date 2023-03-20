@@ -7,6 +7,14 @@
     "rollup": "rollup -c rollup.config.js -w ./src/index.ts",
     "prepublishOnly": "npm run rollup"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fang-kang/swagger-ts"
+  },
+  "homepage": "https://github.com/fang-kang/swagger-ts",
+  "bugs": {
+    "url": "https://github.com/fang-kang/swagger-ts/issues"
+  },
   "keywords": [
     "swagger",
     "ts"
@@ -14,7 +22,7 @@
   "bin": {
     "swagger-ts": "./index.js"
   },
-  "author": "fangkang",
+  "author": "fangkang<https://github.com/fang-kang>",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.21",
