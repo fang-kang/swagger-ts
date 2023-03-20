@@ -1,0 +1,4 @@
+node_modules
+src/types
+src/common
+swagger-ts.config.js

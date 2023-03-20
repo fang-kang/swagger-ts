@@ -1,0 +1,33 @@
+{
+  "name": "@fk/swagger-ts",
+  "version": "1.0.0",
+  "description": "swagger文档装换转换成ts的interface",
+  "main": "./index.js",
+  "scripts": {
+    "rollup": "rollup -c rollup.config.js -w ./src/index.ts",
+    "prepublishOnly": "npm run rollup"
+  },
+  "keywords": [
+    "swagger",
+    "ts"
+  ],
+  "bin": {
+    "swagger-ts": "./index.js"
+  },
+  "author": "fangkang",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/prettier": "^2.6.0",
+    "@types/progress": "^2.0.5",
+    "rollup": "^2.69.0",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "json-schema-to-typescript": "^11.0.2",
+    "prettier": "^2.5.1",
+    "progress": "^2.0.3"
+  }
+}
