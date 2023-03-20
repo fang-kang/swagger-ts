@@ -3,7 +3,7 @@
 ## 安装
 
 ```shell
-npm install --save-dev @fk/swagger-ts
+npm install --save-dev @fangkang/swagger-ts
 ```
 
 ## 使用

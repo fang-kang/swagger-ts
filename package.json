@@ -1,5 +1,5 @@
 {
-  "name": "@fk/swagger-ts",
+  "name": "@fangkang/swagger-ts",
   "version": "1.0.0",
   "description": "swagger文档装换转换成ts的interface",
   "private": false,
