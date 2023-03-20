@@ -2,6 +2,7 @@
   "name": "@fk/swagger-ts",
   "version": "1.0.0",
   "description": "swagger文档装换转换成ts的interface",
+  "private": false,
   "main": "./index.js",
   "scripts": {
     "rollup": "rollup -c rollup.config.js -w ./src/index.ts",
